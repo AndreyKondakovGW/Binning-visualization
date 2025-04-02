@@ -1,0 +1,6 @@
+pandas
+matplotlib
+seaborn
+numpy
+scipy
+plotly==5.18.0

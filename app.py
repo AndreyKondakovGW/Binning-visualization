@@ -5,8 +5,10 @@ import numpy as np
 st.set_page_config(layout="wide")
 data_name_1 = "marine_long_sample_0"
 data_name_2 = "marine_short_sample_0"
+data_name_3 = "marine_long_sample_0_new"
+data_name_4 = "marine_short_sample_0_new"
 # Sample DataFrame (Replace this with your actual data)
-data_name = st.selectbox("Select sample:", [data_name_1, data_name_2])
+data_name = st.selectbox("Select sample:", [data_name_1, data_name_2, data_name_3, data_name_4])
 df = pd.read_csv(f"{data_name}.csv")
 
 # Streamlit UI
